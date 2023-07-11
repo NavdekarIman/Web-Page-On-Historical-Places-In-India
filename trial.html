@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historical Places in India</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+    
+    /* Header */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Content */
+    .container {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .place {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 20px;
+      margin-bottom: 30px;
+    }
+    
+    .place-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    
+    .place-image img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .place-info {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .place-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .place-description {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Historical Places in India</h1>
+  </header>
+
+  <div class="container">
+    <div class="place">
+      <div class="place-image">
+        <img src="image1.jpg" alt="Taj Mahal">
+      </div>
+      <div class="place-info">
+        <h2 class="place-title">Taj Mahal</h2>
+        <p class="place-description">The Taj Mahal is a UNESCO World Heritage Site located in Agra, Uttar Pradesh. It was built by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
+      </div>
+    </div>
+    <div class="place">
+      <div class="place-image">
+        <img src="image2.jpg" alt="Red Fort">
+      </div>
+      <div class="place-info">
+        <h2 class="place-title">Red Fort</h2>
+        <p class="place-description">The Red Fort is a historic fort located in Delhi. It served as the main residence of the emperors of the Mughal dynasty for nearly 200 years.</p>
+      </div>
+    </div>
+    <!-- Add more place entries here -->
+  </div>
+
+  <footer>
+    Designed and Developed by Your Name
+  </footer>
+</body>
+</html>
